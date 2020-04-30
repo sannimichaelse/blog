@@ -53,7 +53,10 @@ updates/7/x86_64                 CentOS-7 - Updates
 #### Install the mongodb-org meta-package:
 
 To install the latest stable version of MongoDB, issue the following command:
+
+``` 
 sudo yum install mongodb-org
+``` 
 
 There are two Is this ok [y/N]: prompts. The first one permits the installation of the MongoDB packages and the second one imports a GPG key. At each point, Click on Y and Enter
 
