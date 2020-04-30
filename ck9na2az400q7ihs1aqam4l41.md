@@ -75,7 +75,10 @@ sudo systemctl start mongod
 ``` 
 
 You can also use systemctl to check that the service has started properly.
+
+``` 
 sudo systemctl status mongod
+``` 
 
 You should see something like actively running
 
