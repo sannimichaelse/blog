@@ -80,8 +80,6 @@ Here we have our first combination mapped out. The system has two features here
 - Highly available - A
 - Partition Tolerant- P
 
-Next, the client issues a read request to the system after partitioning, our system will look like this
-
 **AP** or **PA**
 
 Let's look at the next combination
