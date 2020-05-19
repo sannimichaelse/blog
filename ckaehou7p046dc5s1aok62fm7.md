@@ -106,7 +106,10 @@ In the diagram above, the system is both Consistent and Highly Available
 
 > No distributed system is safe from network failures, thus network partitioning generally has to be tolerated. In the presence of a partition, one is then left with two options: consistency or availability. When choosing consistency over availability, the system will return an error or a time out if particular information cannot be guaranteed to be up to date due to network partitioning. When choosing availability over consistency, the system will always process the query and try to return the most recent available version of the information, even if it cannot guarantee it is up to date due to network partitioning In the absence of network failure – that is, when the distributed system is running normally – both availability and consistency can be satisfied - Wikipedia
 
-References 
+## Conclusion
+Distributed systems allow us to achieve a level of computing power and availability that were simply not available in the past. Our systems have higher performance, lower latency, and near 100% up-time in data centers that span the entire globe. Best of all, the systems of today are run on commodity hardware that is easily obtainable and configurable at affordable costs. However, there is a price. Distributed systems are more complex than their single-network counterparts. Understanding the complexity incurred in distributed systems, making the appropriate trade-offs for the task at hand (CAP), and selecting the right tool for the job is necessary
+
+## References 
 - [Dzone](https://dzone.com/articles/understanding-the-cap-theorem) 
 - [StackOverflow](https://stackoverflow.com/questions/12346326/cap-theorem-availability-and-partition-tolerance)
 - [Medium](https://towardsdatascience.com/cap-theorem-and-distributed-database-management-systems-5c2be977950e)
