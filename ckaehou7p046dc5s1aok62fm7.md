@@ -32,7 +32,7 @@ Now that we've gotten our system established, let's go over what it means for th
 ## Consistency
 In a consistent system, once a client writes a value to any node and gets a response, it expects to get that value (or a fresher value) back from any node it reads from.
 
-There is an edge case about consistency, Some systems usually sacrifice consistency for availability due to network partitioning. We will talk more about this when proving the law
+There is an edge case about consistency, Some systems usually sacrifice availability for consistency due to network partitioning. We will talk more about this when proving the law
 
 ### a system in an inconsistent state
 
@@ -86,7 +86,7 @@ Let's look at the next combination
 
 ![cap11.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1589925653293/iUBElNlcQ.png)
 
-In the diagram above, the client requests a read operation from node1 after the systems were partitioned. Though node1 was able to return a response that makes it consistent, the data I need which is v1 is not available. Some systems usually return an error if the actual data the client is looking for is not available at the moment or a message to show consistencty
+In the diagram above, the client requests a read operation from node1 after the systems were partitioned. Though node1 was able to return a response that makes it consistent, the data I need which is v1 is not available. Some systems usually return an error or a message if the actual data the client is looking for is not available at the moment. Remember that this category refers to the group of systems that sacrifice availability for consistency
 
 > At first glance, the CP category is confusing, i.e., a system that is consistent and partition tolerant but never available. CP is referring to a category of systems where availability is sacrificed only in the case of a network partition.
 
