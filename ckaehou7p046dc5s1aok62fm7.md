@@ -30,7 +30,7 @@ Because node1 and node2 have the same state the response is returned immediately
 Now that we've gotten our system established, let's go over what it means for the system to be consistent, available, and partition tolerant.
 
 ## Consistency
-In a consistent system, once a client writes a value to any server and gets a response, it expects to get that value (or a fresher value) back from any server it reads from.
+In a consistent system, once a client writes a value to any node and gets a response, it expects to get that value (or a fresher value) back from any node it reads from.
 
 There is an edge case about consistency, Some systems usually sacrifice consistency for availability due to network partitioning. We will talk more about this when proving the law
 
