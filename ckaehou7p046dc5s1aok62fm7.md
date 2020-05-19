@@ -2,7 +2,7 @@
 
 ## What is the CAP Theorem?
 
-The CAP Theorem is a fundamental theorem in distributed systems that states any distributed system can have at most two of the following three properties.
+The CAP Theorem is a fundamental theorem in distributed systems that states that any distributed system can have at most two of the following three properties.
 
 - **C**onsistency
 - **A**vailability
