@@ -86,9 +86,9 @@ Let's look at the next combination
 
 ![cap11.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1589925653293/iUBElNlcQ.png)
 
-In the diagram above, the client requests a read operation from node1 after the systems were partitioned. Though node1 was able to return a response that makes it consistent, the data I need which is v1 is not available. Some systems usually return an error or a message if the actual data the client is looking for is not available at the moment. Remember that this category refers to the group of systems that sacrifice availability for consistency
+In the diagram above, the client requests a read operation from node1 after the systems were partitioned. Though node1 was able to return a response that makes it consistent, the data we need which is v1 is not available. Some systems usually return an error or a message if the actual data the client is looking for is not available at the moment. Remember that this category refers to the group of systems that sacrifice availability for consistency
 
-> At first glance, the CP category is confusing, i.e., a system that is consistent and partition tolerant but never available. CP is referring to a category of systems where availability is sacrificed only in the case of a network partition.
+> At first glance, the CP category is confusing, i.e., a system that is consistent and partition tolerant but never available. CP is referring to a category of systems where availability is sacrificed only in the case of a network partition - Dzone
 
 Here we have our new combination 
 - Consistent C
