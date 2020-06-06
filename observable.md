@@ -150,7 +150,7 @@ export class AppComponent {
   }
 }
 ```
-In the Example above, the promise cannot differentiate between transformation and subscription(as in the case of Observables). It fires computes the value immediately even though i might only want to transform the result without computing result yet.
+In the Example above, the promise cannot differentiate between transformation and subscription(as in the case of Observables). It computes the value immediately even though i might only want to transform the input without computing result yet.
 
 - **Observable subscriptions are cancellable. Unsubscribing removes the listener from receiving further values, and notifies the subscriber function to cancel work**
 
