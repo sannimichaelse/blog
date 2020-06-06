@@ -289,6 +289,6 @@ Use an observable of arrays if you intend to continue to get new versions of the
 
 ## References
 - [Promises Cancellation](https://medium.com/@benlesh/promise-cancellation-is-dead-long-live-promise-cancellation-c6601f1f5082)
-- [Angular.io](https://angular.io/guide/comparing-observables)
+- [Angular.io](https://angular.io/guide/)
 - [RxJS Error Hanlding](https://blog.angular-university.io/rxjs-error-handling/)
 
