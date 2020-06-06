@@ -265,7 +265,7 @@ Observables allows transformation of inouts before there are being used while ev
 
 ## Observables vs Arrays
 
-Array
+**Array**
 ```javascript
 const array: Array<number> = [1, 2, 3];
 array.forEach(elt => console.log(elt));
@@ -273,7 +273,7 @@ array.forEach(elt => console.log(elt));
 This is synchronous and will execute right now
 
 
-Observable Array
+**Observable Array**
 ```javascript
 const observable: Observable<number> = Observable.from([1, 2, 3]);
 observable.subscribe(elt => console.log(elt));
@@ -281,9 +281,7 @@ observable.subscribe(elt => console.log(elt));
 
 This is asynchronous, and will execute one element at a time, as they come in.
 
-However, you have asked a slightly different question, which is the difference between an array and an observable of arrays (which, for sake of clarity, we should avoid calling an "array observable", since that could be misconstrued as meaning an "array of observables", which is a different thing, although certainly useful).
-
-The difference is that, as I mentioned, an array is just a single list of values at a single point in time. An observable of arrays is a stream of arrays, each "tick" yielding a entire, new, different array.
+The main difference is just a single list of values at a single point in time. An observable of arrays is a stream of arrays, each "tick" yielding a entire, new, different array.
 
 Therefore, use an array if you just want a list of items sitting there. Of course you can mutate or transform the array, but that doesn't change the fact that at any given point in time there is just one single array.
 
