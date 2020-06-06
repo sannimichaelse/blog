@@ -246,14 +246,14 @@ Using Observable allows me to easily unsubscribe as opposed to removing event li
 
 - **Observables allows you to expose the DOM event as an observable, ie filtering or switching or combining or debouncing is easier**
 
-Observables
+**Observables**
 ```javascript
 // Setup
 let clicks$ = fromEvent(inputEl, ‘keydown’);
 clicks$.pipe(map(e => e.target.value)).subscribe(e => console.log(‘Clicked’, e))
 ```
 
-Events API
+**Events API**
 ```javascript
 element.addEventListener(eventName, (event) => {
   // Cannot change the passed Event into another
