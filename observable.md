@@ -287,3 +287,8 @@ Therefore, use an array if you just want a list of items sitting there. Of cours
 
 Use an observable of arrays if you intend to continue to get new versions of the array--different versions at different points in time--and you want to "push" each new version out to different parts of your program, which in observable terminology will "subscribe" to the observable, and be notified each time it is updated.
 
+## References
+- [Promises Cancellation](https://medium.com/@benlesh/promise-cancellation-is-dead-long-live-promise-cancellation-c6601f1f5082)
+- [Angular.io](https://angular.io/guide/comparing-observables)
+- [RxJS Error Hanlding](https://blog.angular-university.io/rxjs-error-handling/)
+
