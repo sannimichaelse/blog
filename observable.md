@@ -220,7 +220,7 @@ Promises push errors to the child promises.
 
 - **Observables allows you to have finer control over when to start and stop listening via subscribe and unsubscribe**
 
-Observables
+**Observables**
 ```javascript
 // Setup
 let clicks$ = fromEvent(buttonEl, ‘click’);
@@ -231,7 +231,7 @@ let subscription = clicks$
 subscription.unsubscribe();
 ```
 
-Events API
+**Events API**
 ```javascript
 function handler(e) {
   console.log(‘Clicked’, e);
@@ -242,7 +242,7 @@ button.addEventListener(‘click’, handler);
 button.removeEventListener(‘click’, handler);
 ```
 
-Using Observable allows me to easily unsubscribe as opposed to removing event listener from the button 
+Using Observable allows to easily unsubscribe as opposed to removing event listener from the button 
 
 - **Observables allows you to expose the DOM event as an observable, ie filtering or switching or combining or debouncing is easier**
 
