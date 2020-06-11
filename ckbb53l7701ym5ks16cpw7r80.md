@@ -4,9 +4,8 @@
 
 ## Prerequisites
 To be able to follow along in this tutorial, you should have knowledge of the following
-- [Understanding RxJS](https://blog.logrocket.com/understanding-rxjs-observables/)
-- [Promises](https://blog.logrocket.com/improve-async-programming-with-javascript-promises-1652ac8d036d/)
-- [Array Methods](https://blog.logrocket.com/understand-array-methods-by-implementing-them/)
+- [Understanding RxJS](https://www.learnrxjs.io/)
+- [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 
 Over the years, Javascript has evolved in the way it handles asynchronous requests ranging from callbacks, to promises and then async await. While the evolution has brought about a lot of change in the way asynchronous events are handled, it is of noteworthy to mention the power of Observables in Reactive programming and how it handles asynchronous requests dynamically and efficiently. In this article we will be comparing Observables with Promises,Arrays and Event API and why you might want to consider it in your next angular project
 
