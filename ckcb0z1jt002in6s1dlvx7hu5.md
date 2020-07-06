@@ -1,7 +1,7 @@
 ## Kubernetes Resource requests and Limits
 
 ## Introduction
-The advent of technologies for orchestrating and managing containers has become seamless with the help of Kubernetes. While its cool to spin up several instances or replica's of a pod, it is also very important to know how much resources each container in a pod uses and how these containers consume resources in response to load and traffic. Having a mechanism in place to manage resources like CPU, Disk resources and Memory is of utmost importance. Kubernetes provides a way to do that and its called Resources requests and limits
+The advent of technologies for orchestrating and managing containers have become seamless with the help of Kubernetes. While its ok to spin up several instances or replica's of a pod, it is also very important to know how much resources each container in a pod uses and how these containers consume resources in response to load and traffic. Having a mechanism in place to manage resources like CPU, Disk resources and Memory is of utmost importance. Kubernetes provides a way to do that and its called Resources requests and limits
 
 > Requests are what the container is guaranteed to get. If a container requests a resource, Kubernetes will only schedule it on a node that can give it that resource
 
