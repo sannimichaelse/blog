@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-One of the major issues of web sockets on the client-side is trying to maintain a connection when there is a break or disconnect from the server. The Websocket API does not automatically reconnect when there is a break in connection with the server. Also, the client will no longer receive messages from the server even though the connection on the server was re-established. This poses a challenge to developers who have to manually handle socket reconnections as well as ensure that there is no data loss during the process.
+One of the major issues of web sockets on the client-side is trying to maintain a connection when there is a break or disconnect from the server. The Websocket API does not automatically reconnect when there is a break in connection with the server. Also, the client will no longer receive messages from the server even though the connection on the server was re-established. This poses a challenge to developers who have to manually handle socket reconnections as well as ensure that there is no data loss during the process. This is usually referred to as Socket Closures.
 
 How about having a tool that handles automatic socket reconnections and also ensures consistent delivery of messages?
 
