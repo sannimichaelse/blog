@@ -8,7 +8,7 @@ For a long time now, we've always kept data in the database and they made us thi
 Apache Kafka is a distributed data store that is used for ingesting and processing streaming data in real-time. It was built to handle the constant influx of data and process the data sequentially.
 
 # Why Kafka
-I was recently working on a project where we need to stream real-time transactions from a platform. It happens the client already had a Kafka broker setup and they act as the producer - pushing events to one or more consumers. Our task was to act as a consumer and pull transactions in real-time whenever there is a message in the queue. It sounds very interesting and I tried to read it up and share the things learned while implementing it.
+I was recently working on a project where we needed to stream real-time transactions from a platform. It happened the client already had a Kafka broker setup and they act as the producer - pushing events to one or more consumers. Our task was to act as a consumer and pull transactions in real-time whenever there is a message in the queue. It sounded very interesting and I tried to read it up and share the things learned while implementing it.
 
 There are a couple of terms to be familiar with to be able to understand how Kafka works. 
 
