@@ -4,7 +4,7 @@
 
 # Introduction
 
-Have you ever wondered what happens behind the scene after typing a URL on your web browser? how does my browser locate a website even if it's in the farthest country?  Well, you are not alone. In this article, we will be dishing some of those myths and understand what's really happening behind the scenes
+Have you ever wondered what happens behind the scene after typing a URL on your web browser? how does my browser locate a website even if it's in the farthest country?  Well, you are not alone. In this article, we will be uncovering some of those myths and understand what's really happening behind the scenes
 
 Wait a minute, did you remember what you did the last time you wanted to call your mum, or siblings or girlfriend? You simply went to your phonebook/contact and search for the name, then you were able to access the number to call. Just like your phone contact maps your friend's name to their number, DNS maps domain name to an IP Address. 
 
