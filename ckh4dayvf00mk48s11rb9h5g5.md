@@ -24,18 +24,18 @@ NB: All the communication between the web browser and the DNS Servers happens be
 
 # DNS Servers
 
-### DNS Recursor 
-A recursive resolver, also known as the DNS precursor is the first stop in a DNS Lookup. 
+### DNS Resolver 
+A recursive resolver is the first stop in a DNS Lookup. 
 
-The DNS Resolver/Recursor contacted by your computer is usually chosen by your ISP (Internet service provider). However, you can configure your network to use a different DNS resolver, if you choose. This configuration can be modified in your operating system's network settings, or in the administration interface of your home network router
+The DNS Resolver contacted by your computer is usually chosen by your ISP (Internet service provider). However, you can configure your network to use a different DNS resolver, if you choose. This configuration can be modified in your operating system's network settings, or in the administration interface of your home network router
 
-The DNS Recursor acts as the intermediary between the client and the other DNS Servers. It receives requests from the client and forwards it to the Root Name Server. When a resolver receives the DNS query, it will first check its own cache memory, to find an IP address for **example.com**. If it can't find it, it will send the query to the next level, which is the Root Name Server. 
+The DNS Resolver acts as the intermediary between the client and the other DNS Servers. It receives requests from the client and forwards it to the Root Name Server. When a resolver receives the DNS query, it will first check its own cache memory, to find an IP address for **example.com**. If it can't find it, it will send the query to the next level, which is the Root Name Server. 
 
 ### Root Name Server
 
 The Root Name Server or Root Server is at the top of the DNS Hierarchy. There are 13 sets of these root servers, and they are strategically placed around the world and they are operated by 12 different organizations. You can check them out [here](https://www.iana.org/domains/root/servers#:~:text=The%20authoritative%20name%20servers%20that,13%20named%20authorities%2C%20as%20follows.). 
 
-Each set of these root servers has its own unique IP address. The root server does not usually know where the IP address is, but usually knows where to direct the Recursive resolver - DNS precursor. Just like you would ask someone for direction to a particular location. Sometimes, they might not know the exact location but can direct you to where to go next to find your destination. 
+Each set of these root servers has its own unique IP address. The Root Server does not usually know where the IP address is, but knows where to direct the Recursive resolver. Just like you would ask someone for direction to a particular location. Sometimes, they might not know the exact location but can direct you to where to go next to find your destination. 
 
 The Root Name Server will respond with the IP address of the Top Level Domain
 
@@ -45,7 +45,7 @@ The Top-level domain name server stores the address information for top-level do
 ### Authoritave Name Servers
 The authoritative name servers are responsible for knowing everything about the domain, which includes the IP address. They are the final authority in the DNS hierarchy. So when the authoritative name server receives a query from the DNS resolver, the authoritative name server will respond with the IP address of **example.com**. And finally, the resolver will tell your computer(browser) the IP address of **example.com**, then your computer can now retrieve the web page for **example.com**
 
-It is important to know that once the resolver receives the IP address from the authoritative name servers, it will store it in its cache memory in case it receives another query for **example.com** so it doesn't have to go through all the steps again
+It is important to know that once the DNS resolver receives the IP address from the Authoritative name server, it will store it in its cache memory in case it receives another query for **example.com** so it doesn't have to go through all the steps again
 
 # Conclusion
 
