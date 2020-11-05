@@ -42,7 +42,7 @@ The Root Name Server will respond with the IP address of the Top Level Domain
 ### Top Level Domain Name Server
 The Top-level domain name server stores the address information for top-level domains such as **.com**, **.net**, **.org** etc.  It also doesn't store IP addresses also but has information about the top-level domain for the particular URL. Because the TLD server doesn't know the IP address of **example.com**, it will respond with the Authoritative Name Server for **example.com**
 
-### Authoritave Name Servers
+### Authoritative Name Servers
 The authoritative name servers are responsible for knowing everything about the domain, which includes the IP address. They are the final authority in the DNS hierarchy. So when the authoritative name server receives a query from the DNS resolver, the authoritative name server will respond with the IP address of **example.com**. And finally, the resolver will tell your computer(browser) the IP address of **example.com**, then your computer can now retrieve the web page for **example.com**
 
 It is important to know that once the DNS resolver receives the IP address from the Authoritative name server, it will store it in its cache memory in case it receives another query for **example.com** so it doesn't have to go through all the steps again
