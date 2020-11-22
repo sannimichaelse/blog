@@ -84,7 +84,7 @@ You should notice that with closures only the **profileClosure** function will b
 
 - **Use Immediately invoked Function Expressions - IIFE**
 
-Using IIFE also allows you to avoid declaring global functions and variables. With IIFE, the function above becomes 
+Using IIFE also allows you to avoid polluting the global scope. With IIFE, the function above becomes 
 
 ```javascript
 
