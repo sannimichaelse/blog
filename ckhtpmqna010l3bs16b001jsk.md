@@ -1,10 +1,10 @@
-## Tips For Writing Maintainable Javascript
+## Tips For Writing Maintainable Javascript - Part 1
 
 Writing clean and Maintainable Javascript might look like an elusive task for the majority. I have found myself in this situation several times and I still wonder how I will be able to fully grasp the language. The only thing I could resolve to, is to learn from Subject Experts and Understand how things work on the Subliminal level and also to learn the best practices of the Language. 
 
 In this article, I will be explaining one of the Tips for writing Maintainable Javascript. I have a lot of other tips to share but the article can get boring, so I would probably break it into a series
 
-# 1. Avoid Globals
+# Avoid Globals
 
 The javascript execution environment is unique in a lot of ways, the environment is loaded with a lot of globals at the start of script execution all of which are available in the global context. In most browsers, the window object is overloaded to be the global object, so variables declared in the global scope becomes a property of the window object. for example
 
