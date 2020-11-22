@@ -52,7 +52,7 @@ function getProfileDetails(){
 }
 ```
 
-The Javascript window object has access to the const variables as well as the **getProfileDetails()** function. It made the variable and function declaration globals without our permission. Let's see
+The Javascript window object has access to the variables as well as the **getProfileDetails()** function. It made the variable and function declaration global without our permission. Let's see
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1606080301239/vR1hNR7Nj.png)
 
