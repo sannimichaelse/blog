@@ -173,6 +173,6 @@ function* genFunc() {
 ```
 
 # Conclusion
-This is an introduction to generators and how powerful they can be. They play a lot of roles like acting as **Iterators (data producers)**, **Observers (data consumers)**, **Coroutines (data producers and consumers)**. They also have other use cases as well. In another article, I will break down the roles generators play and how we can benefit from it. I hope you learned something from this introductory article. Dont forget to like, share and drop comments. Thanks
+This is an introduction to generators and how powerful they can be. They play a lot of roles like acting as **Iterators (data producers)**, **Observers (data consumers)**, **Coroutines (data producers and consumers)**. They also have other use cases as well. In another article, I will break down the roles generators play and how we can benefit from it. I hope you learned something from this introductory article. Don't forget to like, share and comment. Thanks
 
 
