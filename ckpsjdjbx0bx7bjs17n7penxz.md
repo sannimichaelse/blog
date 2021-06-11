@@ -1,4 +1,4 @@
-## Build a Bitcoin Price Notification Service with Python and IFTTT
+## Build a Bitcoin Price Notification Service with Python
 
 # Introduction
 
@@ -125,7 +125,7 @@ You will create two applets, one called `bitcoin_price_emergency` and the other 
 
 In the snippet above, we make a call to the `get_latest_bitcoin_price` method we defined above to get the current bitcoin price. Then, if the price is more than the threshold set - we make a post request to IFTTT which triggers the webhook that sends a notification to your phone.  Also when the length of the bitcoin price is 2( you can set it to any value of your choice) we also send another request to IFTTT which triggers the webhook that sends a notification to telegram. Also notice we define each IFTTT request with the event name.
 
-Then the last line in the method is to sleep for `x` number of seconds to reduce the number times we make calls to the coin api. There is actually a limit on the number of calls. You can check more about that (here)[https://coinmarketcap.com/api/documentation/v1/#section/Authentication]
+Then the last line in the method is to sleep for `x` number of seconds to reduce the number times we make calls to the coin API. There is actually a limit on the number of calls. You can check more about that [here](https://coinmarketcap.com/api/documentation/v1/#section/Authentication)
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1623425534533/zqLjPfFEP.png)
 
