@@ -1,4 +1,4 @@
-## How to create Sudo Enabled User on CentOS 7
+# How to create Sudo Enabled User on CentOS 7
 
 ## Introduction
 
