@@ -1,4 +1,4 @@
-## Build a Bitcoin Price Notification Service with Python
+# Build a Bitcoin Price Notification Service with Python
 
 # Introduction
 
