@@ -1,4 +1,4 @@
-## An Introduction to Kafka
+# An Introduction to Kafka
 
 # Introduction
 
