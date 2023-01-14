@@ -1,4 +1,4 @@
-## How to Install and Configure a CentOS Virtual Machine on macOS using Vagrant
+# How to Install and Configure a CentOS Virtual Machine on macOS using Vagrant
 
 # Introduction 
 
