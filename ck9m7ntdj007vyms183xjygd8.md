@@ -1,4 +1,4 @@
-## Asynchronous King
+# Asynchronous King
 
 I once wrote a [story](https://sannimichaelse.github.io/blog/2018/06/20/javascript-promises/) on the power of promises and async functions in Javascript and how it can allow you to perform asynchronous operations in your code like a Pro. Recently, I had to explain the concepts of promises and async/await to some students I was training and I was looking for a way to break it down into bits for them. I decided to check out the post and use the story, but this time I converted the story into a code.
 
