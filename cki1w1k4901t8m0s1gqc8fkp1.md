@@ -1,4 +1,4 @@
-## Introduction to Generators
+# Introduction to Generators
 
 # Introduction
 
