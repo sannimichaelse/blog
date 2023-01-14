@@ -1,4 +1,4 @@
-## Tips For Writing Maintainable Javascript - Part 1
+# Tips For Writing Maintainable Javascript - Part 1
 
 Writing clean and Maintainable Javascript might look like an elusive task for the majority. I have found myself in this situation several times and I still wonder how I will be able to fully grasp the language. The only thing I could resolve to, is to learn from Subject Experts and Understand how things work on the Subliminal level and also to learn the best practices of the Language. 
 
