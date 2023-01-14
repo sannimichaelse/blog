@@ -1,4 +1,4 @@
-## How to Install MongoDB on  CentOS 8
+# How to Install MongoDB on  CentOS 8
 
 ## Introduction 
 
