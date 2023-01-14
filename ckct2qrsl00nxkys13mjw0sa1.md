@@ -1,4 +1,4 @@
-## Sarus: The Javascript library for WebSockets
+# Sarus: The Javascript library for WebSockets
 
 ## Introduction 
 
