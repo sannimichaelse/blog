@@ -1,4 +1,4 @@
-## Observables compared to other techniques
+# Observables compared to other techniques
 
 ![observables](https://rangleio.ghost.io/content/images/2016/04/observables-and-reactive-programming-in-angular-2-rangleio.gif)
 
