@@ -1,4 +1,4 @@
-## JavaScript Promises
+# JavaScript Promises
 
 # What is a promise?
 
