@@ -1,4 +1,4 @@
-## The CAP Theorem
+# The CAP Theorem
 
 ## What is the CAP Theorem?
 
