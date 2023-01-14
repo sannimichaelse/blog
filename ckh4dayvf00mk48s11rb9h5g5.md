@@ -1,4 +1,4 @@
-## The Phonebook of the Internet - DNS
+# The Phonebook of the Internet - DNS
 
 ![dns-lookup.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1604128454353/6i55H8U97.png)
 
