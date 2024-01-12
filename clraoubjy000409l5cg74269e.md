@@ -11,9 +11,9 @@ tags: java, system-design, solid-principles, first-principle
 
 # Introduction
 
-Recently, I found myself training those I call ***"the tech leaders of tomorrow."*** I realized the importance of revisiting foundational concepts. As I navigated the exciting world of teaching budding tech leaders, I circled back to some old friends—the fundamental principles that lay the groundwork for sturdy software development. While steering the new leaders through the fantastic journey, I stumbled upon the enduring value of SOLID principles. It hit me that no matter how fast technology races ahead, these principles stand tall, providing valuable insights into building code that lasts.
+Recently, I found myself training those I fondly call ***"the tech leaders of tomorrow."*** I realized the importance of revisiting foundational concepts. As I navigated the exciting world of teaching budding tech leaders, I circled back to some old friends—the fundamental principles that lay the groundwork for sturdy software development. While steering the new leaders through the fantastic journey, I stumbled upon the enduring value of SOLID principles. It hit me that no matter how fast technology races ahead, these principles stand tall, providing valuable insights into building code that lasts.
 
-So, why am I putting pen to paper (or fingers to keys) on this? Simple—it's personal. I wanted to document the foundational knowledge that has helped me in my career so far and hopefully to someone who might need it in the future. Whether you've been in the field for years or are just starting in coding, sometimes the most enduring lessons come from returning to basics.
+So, why am I putting pen to paper (or fingers to keys) on this? Simple—it's personal. I wanted to document one of the foundational knowledge that has helped me in my career so far and hopefully to someone who might need it. Whether you've been in the field for years or are just starting in coding, sometimes the most enduring lessons come from returning to basics.
 
 # SOLID Principles
 
