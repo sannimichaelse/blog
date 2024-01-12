@@ -1,8 +1,8 @@
 ---
-title: "Back to Basics: Rediscovering SOLID Principles"
+title: "Rediscovering SOLID Principles"
 datePublished: Fri Jan 12 2024 13:42:36 GMT+0000 (Coordinated Universal Time)
 cuid: clraoubjy000409l5cg74269e
-slug: back-to-basics-rediscovering-solid-principles
+slug: rediscovering-solid-principles
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1705065781937/5de3bb12-8bc6-4e93-8a9a-bf2ca869ab6b.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1705066887478/17dd3de9-9e67-4e55-8644-a38f92b8b165.png
 tags: java, system-design, solid-principles, first-principle
